@@ -14,7 +14,7 @@ To run Python 2, the same previous syntax is used, changing only the object of t
 ## Tutorial Bash:
 It is also possible to execute command from the Bash terminal using the "shell" method, or to execute scripts with the "ShRun" command.
 
-##Example Python:
+### Example Python:
 Python3 python3 = new Python3();
 python3.ᐷᐷᐷ("print('ok')");
 python3.ᐷᐷᐷ("for x in range(1, 10):");
@@ -24,7 +24,7 @@ python3.Run(true);
 
 python3.PyRun("/home/user/Desktop/test.py", true);
 
-##Example Bash:
+### Example Bash:
 Bash bash = new Bash();
 bash.shell("ls", true);
 
