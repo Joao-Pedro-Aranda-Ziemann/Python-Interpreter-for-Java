@@ -31,6 +31,7 @@ python3.PyRun("/home/user/Desktop/test.py", true);
 
 ### Example Bash:
 Bash bash = new Bash();
+
 bash.shell("ls", true);
 
 bash.ShRun("/home/user/Desktop/test.sh", true);
