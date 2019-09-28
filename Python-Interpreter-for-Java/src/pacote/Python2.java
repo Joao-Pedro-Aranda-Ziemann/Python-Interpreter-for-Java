@@ -63,7 +63,7 @@ public class Python2 {
 				this.retorno = this.EI.executandoComandos(Lista_comandos, Print_na_Tela);
 				Lista_comandos.clear();
 			} else {
-				this.retorno = "Arquivo n?o existe!";
+				this.retorno = "file does not exist!";
 			}
 		} catch (Exception e) {
 			this.retorno = e.toString();

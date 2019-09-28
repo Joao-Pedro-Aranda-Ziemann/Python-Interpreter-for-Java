@@ -53,7 +53,7 @@ public class Bash {
 				this.EI = new Interpretador();
 				this.retorno = this.EI.executandoComandos(Lista_comandos2, Print_na_Tela);
 			} else {
-				this.retorno = "Arquivo n?o existe!";
+				this.retorno = "file does not exist!";
 			}
 		} catch (Exception e) {
 			this.retorno = e.toString();
